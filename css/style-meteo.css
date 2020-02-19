@@ -1,6 +1,18 @@
-
+@font-face {
+  font-family: "morty";
+  src: url(./get_schwifty.ttf);
+}
+@font-face {
+  font-family: "rick";
+  src: url(./ONECHUX.ttf);
+}
+@font-face {
+  font-family: "larbin";
+  src: url(./Phosb___.ttf);
+}
 body {
   margin: 20px;
+  font-family: "larbin";
 }
 header {
   position: relative;
@@ -22,8 +34,24 @@ header p {
 #nb {
   margin-left: 10px;
 }
+#days {
+  font-size: 1.3em;
+  color: yellowgreen;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+h1 {
+  font-size: 2.8em;
+  font-family: "morty";
+  color: yellowgreen;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
 
-
+h3 {
+  font-family: "larbin";
+  font-size: 1.4em;
+  color: yellowgreen;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
 article
 {
   position: relative;
